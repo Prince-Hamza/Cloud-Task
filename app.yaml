@@ -1,0 +1,9 @@
+runtime: nodejs14
+
+env_variables:
+  QUEUE_NAME: "tryTask"
+  QUEUE_LOCATION: "us-central1"
+  FUNCTION_URL: "https://us-central1-my-first-project-ce24e.cloudfunctions.net/sendEmail"
+  SERVICE_ACCOUNT_EMAIL: "cloudtask@my-first-project-ce24e.iam.gserviceaccount.com"
+
+
